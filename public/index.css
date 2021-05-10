@@ -1,0 +1,22 @@
+.todo {
+  margin-bottom: 1rem;
+}
+
+.todo span.completed {
+  text-decoration: line-through;
+  color: aqua;
+}
+
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=82056), pointer;
+  justify-content: space-between;
+  background: #f3f3f3;
+  padding: 1rem;
+}
+
+.todo i {
+  z-index: 2;
+}
