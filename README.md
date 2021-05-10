@@ -14,6 +14,7 @@ In the Terminal write: npm install.
 In mongodb cloud go to Connect in ur cluster -> Connect your application -> copy connection string.
 
 Create file : .env
+
 In this file add ur copy connection string, like this: DB_CONNECTION = mongodb+srv://<User>:<UrPassword>@cluster0.3klgy.mongodb.net/<UrDatabaseName> 
 
 In Terminal: npm run start.
